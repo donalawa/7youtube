@@ -1,0 +1,141 @@
+body {
+    margin-top: 80px;
+ }
+
+  
+  .navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    /* opacity: 0.9; */
+    background: #fff; 
+}
+    .navbar .nav-item {
+      font-size: 1.4rem;
+      padding-right: 1.4rem;
+}
+  #card-shadow {
+    box-shadow: 0 8px 6px -5px black;
+  }
+  #showcase {
+    position: relative;
+    background: url("../img/adultcode.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;;
+    min-height: 600px;
+ }
+    #showcase .primary-overlay {
+      /* background: rgba(50, 146, 166, 0.4); */
+      background: rgba(24, 26, 27, 0.4);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  
+.p-img{
+    border-radius: 50%;
+    height: 500px;
+}
+
+#newsletter {
+    background: #33b5e5 !important;
+}
+.card-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card .card-body .text-dark{
+    font-size: 20px !important;
+}
+
+.card .card-body {
+    padding: 0 !important;
+}
+
+.row {
+    margin-bottom: 40px !important;
+}
+
+.mb-resp:hover {
+    cursor: pointer;
+    /* border: 2px solid brown; */
+    background: rgba(24, 26, 27, 0.4);
+    opacity: 0.5;
+}
+
+#subscribe {
+    background-color: #3292a6 !important;
+    color: white;
+}
+
+#head-section #head-text {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#message {
+    background-color:  #3292a6 !important;
+    color: white;
+}
+
+#readmore {
+    background-color:  #3292a6 !important;
+}
+@media (max-width: 1199px){
+    .desc {
+        font-size: 50px;
+    }
+    .mb-resp {
+        margin-bottom: 20px;
+    }
+    
+
+}
+
+@media (max-width: 991px){
+    .desc {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:760px){
+    .desc {
+        font-size: 40px;
+    }
+    .mb-resp {
+        margin-bottom: 20px;
+    }
+    #head-section #head-text {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    
+}
+
+@media (max-width:560px){
+   .desc{
+       font-size: 40px;
+       
+   }
+   #head-section #head-text {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+}
+
+@media (max-width:360px){
+    .desc{
+        font-size: 30px;
+    }
+    .lead {
+        font-size: 17px;
+    }
+}
+
+
+
