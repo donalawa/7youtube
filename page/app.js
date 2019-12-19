@@ -48,7 +48,7 @@ $(document).ready(function(){
         let title = item.snippet.title;
         let vid = item.snippet.resourceId.videoId;
         
-     //We are appending every new video to the right section 
+     //We are appending every new video to the right section .
         $('.right').append(`
         <article class="item" data-key="${vid}">
         <img src="${thumb}" alt="" class="thumb">
