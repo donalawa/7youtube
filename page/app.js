@@ -19,7 +19,7 @@ $(document).ready(function(){
         maxResults: 30,
         playlistId: playlistId
     }
-    //we are calling the load vid function that is surpose to make the request.
+    //we are calling the load vid function that is surpose to make the request..
     loadVids();
     function loadVids(){
         $.getJSON(URL,options, function(data){
