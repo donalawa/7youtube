@@ -43,7 +43,7 @@ $(document).ready(function(){
     function resultLoop(data){
         //Bellow we are looping through the return videos and displaying a new vidio card for each video
         data.items.forEach(function(item){
-        
+        //we are creating variables for thumbnails and title and video it self
         let thumb = item.snippet.thumbnails.medium.url;
         let title = item.snippet.title;
         let vid = item.snippet.resourceId.videoId;
