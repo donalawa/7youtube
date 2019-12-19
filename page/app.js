@@ -12,7 +12,7 @@ $(document).ready(function(){
     //URL WHERE WE MAKE THE FETCH REQUEST  FOR THE DATA
     let URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
-    //this are the required dat needed to make out api call
+    //this are the required dat needed to make out api call.
     let options = {
         part: 'snippet',
         key: key,
