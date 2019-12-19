@@ -1,5 +1,5 @@
 
-//This is where we make the request to the youtube api to get the videos
+//This is where we make the request to the youtube api to get the videos.
 $(document).ready(function(){
      //Data needed for the project.
 
