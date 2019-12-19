@@ -1,7 +1,7 @@
 
 //This is where we make the request to the youtube api to get the videos
 $(document).ready(function(){
-     //Data needed for the project
+     //Data needed for the project.
 
     //Api key
     let key = 'AIzaSyASonkJKd3RcXFC1ySwHIFOZRN7OU9qCrU';
