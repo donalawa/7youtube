@@ -9,7 +9,7 @@ $(document).ready(function(){
    //Name of playlist
     let playlistId = 'PLiNDGWvmc7IuzmUIMlqwhVydWPTAr3Hth';
 
-   //URL WHERE WE MAKE THE FETCH REQUEST  FOR THE DATA
+   //URL WHERE WE MAKE THE FETCH REQUEST  FOR THE DATA   
    let URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
    //this are the required dat needed to make out api call
